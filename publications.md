@@ -1,6 +1,7 @@
 ---
 title: Publications
 auto-header: none
+layout: bibtemplate
 permalink: /publications/
 years: [2023, 2022, 2021, 2020]
 icon: fa-book
