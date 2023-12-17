@@ -37,7 +37,7 @@ scholar:
   sort_by: year,month
   order: descending
 
-  source: ./docs/_bibliography
+  source: ./_bibliography
   bibliography: mywork.bib
   bibliography_template: bibtemplate
 
