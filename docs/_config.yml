@@ -32,7 +32,7 @@ plugins:
   - jekyll-scholar
 
 collections: [sections]
-
+plugins_dir: [jekyll-scholar]
 scholar:
   locale: en
 
