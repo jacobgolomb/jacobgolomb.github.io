@@ -39,7 +39,7 @@ scholar:
   order: descending
 
   source: ./_bibliography
-  bibliography: mywork.bib
+  bibliography: docs/_bibliography/mywork.bib
   bibliography_template: bibtemplate
 
 
