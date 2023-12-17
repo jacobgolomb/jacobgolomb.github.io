@@ -38,8 +38,8 @@ scholar:
   sort_by: year,month
   order: descending
 
-  source: ./_bibliography
-  bibliography: docs/_bibliography/mywork.bib
+  source: ./docs/_bibliography
+  bibliography: mywork.bib
   bibliography_template: bibtemplate
 
 
