@@ -17,7 +17,7 @@ title: Jacob Golomb
 email: jgolomb@caltech.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Personal webpage for Jacob Golomb.
-baseurl: "/docs" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jacobgolomb.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -25,7 +25,6 @@ remote_theme: chrisbobbe/jekyll-theme-prologue
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -38,8 +37,8 @@ scholar:
   sort_by: year,month
   order: descending
 
-  source: docs/_bibliography
-  bibliography: docs/_bibliography/mywork.bib
+  source: ./docs/_bibliography
+  bibliography: mywork.bib
   bibliography_template: bibtemplate
 
 
