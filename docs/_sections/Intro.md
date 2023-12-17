@@ -1,17 +1,36 @@
 ---
 title: Intro
-cover-photo: assets/images/banner.jpg
-cover-photo-alt: example cover photo
 auto-header: none
+cover-photo: assets/images/bluegradient.jpg
+cover-photo-alt: cover-photo
 icon: fa-comment
 order: 1
 ---
-<header>
-  <h2 class="alt">Jacob Golomb</h2>
-  <h4> PhD Student in Physics at the California Institute of Technology</h4>
-  <p>Adapted for Jekyll by <a href=https://chrisbobbe.github.io/>Chris Bobbe</a>. Get started on <a href="https://github.com/chrisbobbe/jekyll-theme-prologue">GitHub!</a></p>
-</header>
 
-<footer>
-  <a href="#portfolio" class="button scrolly">Magna Aliquam</a>
-</footer>
+<head>
+<style>
+    .profile {
+      border-radius: 50%;
+      border: 10px outset #c7d3ed;
+      box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+      width: 25%;
+      height: 25%;
+      object-fit: cover;
+      margin-bottom: 5px;
+      margin-top: 0;
+      transition: border-radius 0.4s ease-in-out, transform 0.25s ease-in-out;
+    }
+    .profile:hover {
+      border-radius: 35%;
+      transform: scale(1.1);
+    }
+
+
+</style>
+</head>
+
+<div>
+  <img src="assets/images/profile.jpeg" alt="Profile" class=profile>
+  <div style="font-size: 50px; font-family: Verdana; line-height: 1.5;">Jacob Golomb</div>
+  <h4> PhD Student in Physics at the <a href="https://www.caltech.edu">California Institute of Technology</a></h4>
+</div>

@@ -5,5 +5,6 @@
 layout: home
 title: Homepage
 icon: fa-home
+auto-header: none
 order: 1
 ---
