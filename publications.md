@@ -8,7 +8,7 @@ icon: fa-book
 order: 2
 ---
 
-<span style="font-size: 16px'"> Here is a list of my publications which have either been published or have been submitted and are in peer review. I have also included LIGO Scientific Collaboration papers which I have contributed significantly to.</span>
+<span style="font-size: 16px'"> Here is a list of my publications which have either been published or have been submitted to a journal and are in the peer review process. I have also included selected LIGO Scientific Collaboration papers which I have contributed significantly to.</span>
 
 {% bibliography %}
 <script>
