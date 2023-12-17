@@ -542,13 +542,13 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 #main > section { text-align: center; }
 #main > article { text-align: left; }
 #main > article header p { font-style: italic; }
-#main > section, #main article { margin: 0; overflow: hidden; padding: 4em 0; box-shadow: inset 0 10px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025); background-image: url("images/overlay.png"); }
+#main > section, #main article { margin: 0; overflow: hidden; padding: 4em 0; box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025); background-image: url("images/overlay.png"); }
 #main > section.dark, #main article.dark { color: #ddd; color: rgba(255, 255, 255, 0.75); }
 #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6, #main article.dark h2, #main article.dark h3, #main article.dark h4, #main article.dark h5, #main article.dark h6 { color: inherit; }
 #main > section.dark strong, #main article.dark strong { color: #fff; border-color: inherit; }
 #main > section.dark a, #main article.dark a { color: #fff; border-color: inherit; }
 #main > section.dark a:hover, #main article.dark a:hover { border-bottom-color: rgba(255, 255, 255, 0); }
-#main > section.cover, #main article.cover { padding: 3em 0; position: relative; z-index: 0; }
+#main > section.cover, #main article.cover { padding: 6em 0; position: relative; z-index: 0; }
 #main > section.cover img.back, #main article.cover img.back { position: absolute; object-fit: cover; width: 100%; height: 100%; left: 0; top: 0; z-index: -1; }
 #main > section.shade-one, #main article.shade-one { background-color: #81918E; }
 #main > section.shade-two, #main article.shade-two { background-color: #f5fafa; }
@@ -563,7 +563,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
   /* Footer */
   #footer { margin-left: 300px; }
   /* Main */
-  #main { margin-left: 375px; } }
+  #main { margin-left: 300px; } }
 /* Normal */
 @media screen and (min-width: 961px) and (max-width: 1620px) { /* Main */
   #main > section, #main article { padding: 3em 0; }
