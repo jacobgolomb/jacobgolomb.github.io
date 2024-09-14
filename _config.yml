@@ -30,7 +30,12 @@ plugins:
   - jekyll-include-cache
   - jekyll-scholar
 
-collections: [sections, summaries]
+collections:
+  sections:
+    output: true
+  summaries:
+    output: true
+    
 scholar:
   locale: en
 
