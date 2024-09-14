@@ -3,7 +3,7 @@ title: Publications
 auto-header: none
 layout: page
 permalink: /publications/
-years: [2023, 2022, 2021, 2020]
+years: [2024, 2023, 2022, 2021, 2020]
 icon: fa-book
 order: 2
 ---
