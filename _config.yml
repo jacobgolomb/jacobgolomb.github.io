@@ -30,7 +30,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-scholar
 
-collections: [sections]
+collections: [sections, summaries]
 scholar:
   locale: en
 
