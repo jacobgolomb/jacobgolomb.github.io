@@ -10,7 +10,7 @@ order: 3
       float: right;
       width: 338px;
       height: 270px;
-      margin-left: 20px; /* Add some space between text and image */
+      margin-left: 10px; /* Add some space between text and image */
       border-radius: 5px;
       box-shadow: 4px 4px 4px grey;
     }
