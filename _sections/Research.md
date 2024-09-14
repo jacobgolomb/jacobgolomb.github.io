@@ -5,20 +5,26 @@ order: 3
 ---
 
 <head>
-<style>
-  .image_box_container {
-    float: right;
-    width: 338px;
-    height: 270px;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px grey;  
-  }
+  <style>
+    .image_box_container {
+      float: right;
+      width: 338px;
+      height: 270px;
+      margin-left: 20px; /* Add some space between text and image */
+      border-radius: 5px;
+      box-shadow: 4px 4px 4px grey;
+    }
 
-  .image_box {
-    width: 100%; /* Make the image take up the full width of the container */
-    border-radius: 5px 5px 0 0; /* Apply border-radius only to the top corners */
-  }
-</style>
+    .image_box {
+      width: 100%; /* Make the image take up the full width of the container */
+      border-radius: 5px 5px 0 0; /* Apply border-radius only to the top corners */
+    }
+
+    /* Ensure that list items adjust for the float */
+    ul {
+      overflow: auto;
+    }
+  </style>
 </head>
 
 <body style="font-size: 20px">
@@ -36,7 +42,7 @@ order: 3
 
 <div class="image_box_container">
   <img src="assets/images/dancing_bhs.jpeg" class="image_box" alt="Dancing Black Holes">
-  <p style="font-size: 10px; text-align: right;"> Image courtesy LIGO/Caltech/MIT/Sonoma State </p>
+  <p style="font-size: 10px; text-align: right;">Image courtesy LIGO/Caltech/MIT/Sonoma State</p>
 </div>
 
 </body>
