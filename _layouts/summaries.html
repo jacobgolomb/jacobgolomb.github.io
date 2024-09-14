@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign _summaries = site.posts | sort: 'date' | reverse -%}
+{%- assign _summaries = site.summaries | sort: 'date' | reverse -%}
 {%- include header.html scrolly_nav=_summaries -%}
 <!-- Main -->
 <div id="main">
