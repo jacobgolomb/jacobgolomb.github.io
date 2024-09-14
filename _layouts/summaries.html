@@ -10,6 +10,8 @@ layout: default
 	{%- endif -%}
 	<!-- Posts List -->
 	{%- for _post in _summaries -%}
+		<p>URL: {{- _post.url -}}</p>
+
 		{%- capture _title -%}
 			<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
 		{%- endcapture -%}
