@@ -25,6 +25,10 @@ remote_theme: chrisbobbe/jekyll-theme-prologue
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+liquid:
+  error_mode: warn
 plugins:
   - jekyll-feed
   - jekyll-include-cache

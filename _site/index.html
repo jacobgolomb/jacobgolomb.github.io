@@ -29,6 +29,8 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.min.js?config=TeX-MML-AM_CHTML" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <script src="/assets/js/jquery.scrolly.min.js" defer></script>
   <script src="/assets/js/jquery.scrollzer.min.js" defer></script>
   <script src="/assets/js/skel.min.js" defer></script>
@@ -51,6 +53,8 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
             <span class="icon fa-home">Homepage</span>
           </a></li><li><a href="http://localhost:4000/publications/" id="publications-link">
             <span class="icon fa-book">Publications</span>
+          </a></li><li><a href="http://localhost:4000/summaries/" id="summaries-link">
+            <span class="icon fa-book">Summaries</span>
           </a></li><hr><li><a href="#intro" id="intro-link" class="scrolly"><span class="icon fa-comment">Intro</span></a></li><li><a href="#about-me" id="about-me-link" class="scrolly"><span class="icon fa-user-circle">About Me</span></a></li><li><a href="#research-interests" id="research-interests-link" class="scrolly"><span class="icon fa-flask">Research Interests</span></a></li></ul>
 </nav></div>
   <div class="bottom"><!-- Social Icons -->
@@ -92,7 +96,7 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
   <div class="container"><header>
 			<h2>About Me</h2></header><div style="font-size: 20px;">
 
-<p>Hey, I'm Jacob. I'm currently a fourth-year physics PhD student at Caltech, studying black holes and neutron stars through the gravitational waves they emit when they collide. I am especially interested in how we can use gravitational wave observations to learn about astrophysics, general relativity, and cosmology, as well as the methods involved in these analyses.</p>
+<p>Hey, I'm Jacob. I'm currently a fifth-year physics PhD student at Caltech, studying black holes and neutron stars through the gravitational waves they emit when they collide. I am especially interested in how we can use gravitational wave observations to learn about astrophysics, general relativity, and cosmology, as well as the methods involved in these analyses.</p>
 
 <p>I work within the <a href="https://labcit.ligo.caltech.edu/groups/astrophysics-group/">Astrophysics Group</a> in the <a href="https://www.ligo.caltech.edu/">Caltech LIGO Lab</a>, where my advisor is Alan Weinstein. Within the LIGO Scientific Collaboration, I am actively invovled in several working groups, including the Parameter Estimation and Rates and Populations groups.</p>
 
@@ -105,38 +109,57 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 <section id="research-interests" class="shade-three">
   <div class="container"><header>
 			<h2>Research Interests</h2></header><head>
-<style>
-  .image_box_container {
-    float: right;
-    width: 338px;
-    height: 270px;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px grey;  
-  }
+  <style>
+    .image_box_container {
+      float: right;
+      width: 338px;
+      height: 270px;
+      margin-left: 10px; /* Add some space between text and image */
+      border-radius: 5px;
+      box-shadow: 4px 4px 4px grey;
+    }
 
-  .image_box {
-    width: 100%; /* Make the image take up the full width of the container */
-    border-radius: 5px 5px 0 0; /* Apply border-radius only to the top corners */
-  }
-</style>
+    .image_box {
+      width: 100%; /* Make the image take up the full width of the container */
+      border-radius: 5px 5px 0 0; /* Apply border-radius only to the top corners */
+    }
+
+    /* Ensure that list items adjust for the float */
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
 </head>
 
 <body style="font-size: 20px">
 
-<div style="float: left;">
-  <p style="text-align: left;">I'm interested in using gravitational wave observations to:</p>
-  <ul style="text-align: left;">
-    <li>Estimate the source properties of detected signals using Bayesian Inference</li>
-    <li>Learn about stellar evolution and compact binary formation channels</li>
-    <li>Infer cosmological parameters (i.e. Hubble expansion rate, matter/dark-energy densities, etc)</li>
-    <li>Constrain possible models for the behavior of dense nuclear matter</li>
-    <li>Test General Relativity</li>
-  </ul>
-</div>
+<div class="clearfix">
+  <div style="float: left; width: 60%;">
+    <p style="text-align: left;">I'm interested in using gravitational wave observations to:</p>
+    <ul style="text-align: left;">
+      <li>Estimate the source properties of detected signals using Bayesian Inference</li>
+      <li>Learn about stellar evolution and compact binary formation channels</li>
+      <li>Infer cosmological parameters (i.e. Hubble expansion rate, matter/dark-energy densities, etc)</li>
+      <li>Constrain possible models for the behavior of dense nuclear matter</li>
+      <li>Test General Relativity</li>
+    </ul>
+  </div>
 
-<div class="image_box_container">
-  <img src="assets/images/dancing_bhs.jpeg" class="image_box" alt="Dancing Black Holes" />
-  <p style="font-size: 10px; text-align: right;"> Image courtesy LIGO/Caltech/MIT/Sonoma State </p>
+  <div class="image_box_container">
+    <img src="assets/images/dancing_bhs.jpeg" class="image_box" alt="Dancing Black Holes" />
+    <p style="font-size: 10px; text-align: right;">Image courtesy LIGO/Caltech/MIT/Sonoma State</p>
+  </div>
 </div>
 
 </body>

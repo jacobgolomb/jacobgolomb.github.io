@@ -3,6 +3,10 @@ layout: default
 ---
 {%- include header.html -%}
 
+{% if page.mathjax %}
+  {% include mathjax.html %}
+{% endif %}
+
 <!-- Main -->
 <div id="main">
 	<!-- Post -->

@@ -5,13 +5,13 @@ layout: default
 {%- include header.html-%}
 <!-- Main -->
 <div id="main">
-	{%- if page.content != "" -%}
-		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
-	{%- endif -%}
+	<section>
+	  <div>
+		{{ content }}
+	  </div>
+	</section>
 	<!-- Posts List -->
 	{%- for _post in _summaries -%}
-		<p>URL: {{- _post.url -}}</p>
-
 		{%- capture _title -%}
 			<a href="{{- _post.url | relative_url -}}">{{- _post.title -}}</a>
 		{%- endcapture -%}
