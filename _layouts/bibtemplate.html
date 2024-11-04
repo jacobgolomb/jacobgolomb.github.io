@@ -8,11 +8,10 @@ auto-header: none
         :root {
             --image-width: 150px;
         }
-
+        .button3,
         .button2,
         .button1,
         .button0,
-        .button3,
         .button4 {
             border-color: #3c39eb;
             background-color: #ddd;
@@ -29,6 +28,10 @@ auto-header: none
             border-radius: 5px;
             height: 45px;
             vertical-align: top;
+        }
+        .button3 {
+            background-color: #e79e44;
+            border-color: #e79e44;
         }
 
         .button2 {
@@ -159,11 +162,11 @@ auto-header: none
             <button class="button1">arXiv</button>
         </a>
         {% endif %}
-        {% if entry.link %}
-        <a href="{{ entry.link }}"><input class="button4" type="button" value="link" /></a>
-        {% endif %}
+
         {% if entry.code %}
-        <a href="{{ entry.code }}"><input class="button3" type="button" value="code" /></a>
+        <a href="{{ entry.code }}" style="text-decoration: none">
+            <button class="button3">Code</button>
+        </a>
         {% endif %}
     </div>
     </div>
