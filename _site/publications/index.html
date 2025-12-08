@@ -6,7 +6,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 -->
 <html><head><!-- Robots -->
-  <meta name="robots" content="index, follow" /><link rel="canonical" href="http://localhost:4000/publications/" /><!-- Title, description, author --><title>Publications | Jacob Golomb</title>
+  <meta name="robots" content="index, follow" /><link rel="canonical" href="https://jacobgolomb.github.io/publications/" /><!-- Title, description, author --><title>Publications | Jacob Golomb</title>
   <meta name="description" content="Personal webpage for Jacob Golomb." />
   <meta name="author" content="" />
   
@@ -14,7 +14,7 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
   <meta property="og:title" content="Publications | Jacob Golomb" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="" />
-  <meta property="og:url" content="http://localhost:4000/publications/" />
+  <meta property="og:url" content="https://jacobgolomb.github.io/publications/" />
   <meta property="og:site_name" content="Jacob Golomb" />
   <meta property="og:description" content="Personal webpage for Jacob Golomb." />
   
@@ -43,17 +43,17 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
   <div class="top"><!-- Logo -->
 
 <div id="logo">
-  <a href="http://localhost:4000/" id="home-link"><h1 id="title" style="font-size: 30px;">Jacob Golomb</h1>
+  <a href="https://jacobgolomb.github.io/" id="home-link"><h1 id="title" style="font-size: 30px;">Jacob Golomb</h1>
     <p></p>
   </a>
 </div>
 <!-- Nav -->
 <nav id="nav" style="font-size: 30px;">
-  <ul><li><a href="http://localhost:4000/" id="homepage-link">
+  <ul><li><a href="https://jacobgolomb.github.io/" id="homepage-link">
             <span class="icon fa-home">Homepage</span>
           </a></li><li><a href="#" id="publications" class="active">
             <span class="icon fa-book">Publications</span>
-          </a></li><li><a href="http://localhost:4000/summaries/" id="summaries-link">
+          </a></li><li><a href="https://jacobgolomb.github.io/summaries/" id="summaries-link">
             <span class="icon fa-book">Summaries</span>
           </a></li></ul>
 </nav></div>
@@ -164,10 +164,560 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
         }
 
         .journal {
-            color: rgb(0, 0, 0);
+            color: #2a4f58;
             font-style: italic;
+            font-weight: bold;
             line-height: 1.1;
+            font-size: 15px;
+        }
+
+        .authors .me {
+            font-weight: bold;
+        }
+
+        .button-container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-top: 10px;
+        }
+
+        .abstract-content {
+            display: none;
+            font-size: medium;
+            background-color: rgb(233, 233, 245);
+            border-radius: 15px;
+            padding: 10px;
+            line-height: 1.2;
+        }
+        ol.bibliography {  list-style-type: none; }
+    </style>
+</head>
+<body>
+
+<div class="entry-container">
+    <div class="image-container">
+        
+        <img src="/assets/images/nextgen.png" alt="" style="width: var(--image-width); height: auto;" />
+        
+    </div>
+
+    <div class="title-info">
+        <div class="title">Significant challenges for astrophysical inference with next-generation gravitational-wave observatories</div>
+        <div class="journal">arXiv e-prints, 2025</div>
+        <div class="authors">
+            
+            <span class="authors">
+                A. Makai Baker</span>,
+            
+            <span class="authors">
+                Paul D. Lasky</span>,
+            
+            <span class="authors">
+                Eric Thrane</span>,
+            
+            <span class="authors me">
+                Jacob Golomb</span>
+            
+        </div>
+
+
+    <div class="button-container">
+        
+        <button type="button" onclick="toggleCollapsible('abstract_2025arXiv250304073M')" class="button2">Abstract</button>
+        
+
+        
+        <a href="http://doi.org/10.48550/arXiv.2503.04073" style="text-decoration: none">
+            <button class="button0">Publisher</button>
+        </a>
+        
+        
+        <a href="https://arxiv.org/abs/2503.04073" style="text-decoration: none">
+            <button class="button1">arXiv</button>
+        </a>
+        
+
+        
+    </div>
+    </div>
+    <div id="abstract_2025arXiv250304073M" class="abstract-content">
+        <p>The next generation of gravitational-wave observatories will achieve unprecedented strain sensitivities with an expanded observing band. They will detect  O(10^5)
+  binary neutron star (BNS) mergers every year, the loudest of which will be in the band for  ≈90
+  minutes with signal-to-noise ratios ≈1500. Current techniques will not be able to determine the astrophysical parameters of the loudest of next-gen BNS signals. We show that subtleties arising from the rotation of the Earth and the free-spectral range of gravitational-wave interferometers dramatically increases the complexity of next-gen BNS signals compared to the one-minute signals seen by LIGO–Virgo. Various compression methods currently relied upon to speed up the most expensive BNS calculations – reduced-order quadrature, multi-banding, and relative binning – will no longer be effective. We carry out reduced-order inference on a simulated next-gen BNS signal taking into account the Earth’s rotation and the observatories’ free-spectral range. We show that standard data compression techniques become impractical, and the full problem becomes computationally infeasible, when we include data below  ≈16
+ Hz – a part of the observing band that is critical for precise sky localisation. We discuss potential paths towards solving this complex problem.</p>
+    </div>
+</div>
+
+<!-- ... other HTML content ... -->
+
+</body>
+
+</li>
+<li><head>
+    <style>
+        :root {
+            --image-width: 150px;
+        }
+        .button3,
+        .button2,
+        .button1,
+        .button0,
+        .button4 {
+            border-color: #3c39eb;
+            background-color: #ddd;
+            border: none;
+            color: #ffffff;
+            padding: 14px 14px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
             font-size: 14px;
+            font-weight: bold;
+            margin: 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            height: 45px;
+            vertical-align: top;
+        }
+        .button3 {
+            background-color: #e79e44;
+            border-color: #e79e44;
+        }
+
+        .button2 {
+            background-color: #3c39eb;
+            border-color: #3c39eb;
+        }
+
+        .button1 {
+            border-color: #d34114;
+            background-color: #d34114;
+        }
+
+        .button0 {
+            border-color: #33cc38;
+            background-color: #33cc38;
+        }
+
+        .entry-container {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            transition: transform 0.3s ease-in-out;
+            margin-top: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        .entry-container:hover {
+            transform: scale(1.02);
+        }
+
+        .image-container {
+            margin-bottom: 1px;
+            margin-right: 20px;
+        }
+
+        .title-info {
+            flex: 1;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            color: rgb(131, 46, 195);
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.3;
+            margin-top: 1px;
+        }
+
+        .authors {
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 1.3;
+        }
+
+        .authors .me {
+            font-weight: bold;
+        }
+
+        .journal {
+            color: #2a4f58;
+            font-style: italic;
+            font-weight: bold;
+            line-height: 1.1;
+            font-size: 15px;
+        }
+
+        .authors .me {
+            font-weight: bold;
+        }
+
+        .button-container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-top: 10px;
+        }
+
+        .abstract-content {
+            display: none;
+            font-size: medium;
+            background-color: rgb(233, 233, 245);
+            border-radius: 15px;
+            padding: 10px;
+            line-height: 1.2;
+        }
+        ol.bibliography {  list-style-type: none; }
+    </style>
+</head>
+<body>
+
+<div class="entry-container">
+    <div class="image-container">
+        
+        <img src="/assets/images/mtovmpop.png" alt="" style="width: var(--image-width); height: auto;" />
+        
+    </div>
+
+    <div class="title-info">
+        <div class="title">Interplay of astrophysics and nuclear physics in determining the properties of neutron stars</div>
+        <div class="journal">Phys. Rev. D, 2025</div>
+        <div class="authors">
+            
+            <span class="authors me">
+                Jacob Golomb</span>,
+            
+            <span class="authors">
+                Isaac Legred</span>,
+            
+            <span class="authors">
+                Katerina Chatziioannou</span>,
+            
+            <span class="authors">
+                Philippe Landry</span>
+            
+        </div>
+
+
+    <div class="button-container">
+        
+        <button type="button" onclick="toggleCollapsible('abstract_Golomb:2024lds')" class="button2">Abstract</button>
+        
+
+        
+        <a href="http://doi.org/10.1103/PhysRevD.111.023029" style="text-decoration: none">
+            <button class="button0">Publisher</button>
+        </a>
+        
+        
+        <a href="https://arxiv.org/abs/2410.14597" style="text-decoration: none">
+            <button class="button1">arXiv</button>
+        </a>
+        
+
+        
+    </div>
+    </div>
+    <div id="abstract_Golomb:2024lds" class="abstract-content">
+        <p>Neutron star properties depend on both nuclear physics and astrophysical processes, and thus observations of neutron stars offer constraints on both large-scale astrophysics and the behavior of cold, dense matter. In this study, we use astronomical data to jointly infer the universal equation of state of dense matter along with two distinct astrophysical populations: Galactic neutron stars observed electromagnetically and merging neutron stars in binaries observed with gravitational waves. We place constraints on neutron star properties and quantify the extent to which they are attributable to macrophysics or microphysics. We confirm previous results indicating that the Galactic and merging neutron stars have distinct mass distributions. The inferred maximum mass of both Galactic neutron stars, Mpop,EM=2.05+0.11−0.06M⊙ (median and 90% symmetric credible interval), and merging neutron star binaries, Mpop,GW=1.85+0.39−0.16M⊙, are consistent with the maximum mass of nonrotating neutron stars set by nuclear physics, MTOV=2.28+0.41−0.21M⊙. The radius of a 1.4M⊙ neutron star is 12.2+0.8−0.9km, consistent with, though ∼20% tighter than, previous results using an identical equation of state model. Even though observed Galactic and merging neutron stars originate from populations with distinct properties, there is currently no evidence that astrophysical processes cannot produce neutron stars up to the maximum value imposed by nuclear physics.</p>
+    </div>
+</div>
+
+<!-- ... other HTML content ... -->
+
+</body>
+
+</li>
+<li><head>
+    <style>
+        :root {
+            --image-width: 150px;
+        }
+        .button3,
+        .button2,
+        .button1,
+        .button0,
+        .button4 {
+            border-color: #3c39eb;
+            background-color: #ddd;
+            border: none;
+            color: #ffffff;
+            padding: 14px 14px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            height: 45px;
+            vertical-align: top;
+        }
+        .button3 {
+            background-color: #e79e44;
+            border-color: #e79e44;
+        }
+
+        .button2 {
+            background-color: #3c39eb;
+            border-color: #3c39eb;
+        }
+
+        .button1 {
+            border-color: #d34114;
+            background-color: #d34114;
+        }
+
+        .button0 {
+            border-color: #33cc38;
+            background-color: #33cc38;
+        }
+
+        .entry-container {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            transition: transform 0.3s ease-in-out;
+            margin-top: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        .entry-container:hover {
+            transform: scale(1.02);
+        }
+
+        .image-container {
+            margin-bottom: 1px;
+            margin-right: 20px;
+        }
+
+        .title-info {
+            flex: 1;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            color: rgb(131, 46, 195);
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.3;
+            margin-top: 1px;
+        }
+
+        .authors {
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 1.3;
+        }
+
+        .authors .me {
+            font-weight: bold;
+        }
+
+        .journal {
+            color: #2a4f58;
+            font-style: italic;
+            font-weight: bold;
+            line-height: 1.1;
+            font-size: 15px;
+        }
+
+        .authors .me {
+            font-weight: bold;
+        }
+
+        .button-container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-top: 10px;
+        }
+
+        .abstract-content {
+            display: none;
+            font-size: medium;
+            background-color: rgb(233, 233, 245);
+            border-radius: 15px;
+            padding: 10px;
+            line-height: 1.2;
+        }
+        ol.bibliography {  list-style-type: none; }
+    </style>
+</head>
+<body>
+
+<div class="entry-container">
+    <div class="image-container">
+        
+        <img src="/assets/images/ppisn.png" alt="" style="width: var(--image-width); height: auto;" />
+        
+    </div>
+
+    <div class="title-info">
+        <div class="title">Physical Models for the Astrophysical Population of Black Holes: Application to the Bump in the Mass Distribution of Gravitational-wave Sources</div>
+        <div class="journal">Astrophys. J., 2024</div>
+        <div class="authors">
+            
+            <span class="authors me">
+                Jacob Golomb</span>,
+            
+            <span class="authors">
+                Maximiliano Isi</span>,
+            
+            <span class="authors">
+                Will M. Farr</span>
+            
+        </div>
+
+
+    <div class="button-container">
+        
+        <button type="button" onclick="toggleCollapsible('abstract_2024ApJ...976..121G')" class="button2">Abstract</button>
+        
+
+        
+        <a href="http://doi.org/10.3847/1538-4357/ad8572" style="text-decoration: none">
+            <button class="button0">Publisher</button>
+        </a>
+        
+        
+        <a href="https://arxiv.org/abs/2312.03973" style="text-decoration: none">
+            <button class="button1">arXiv</button>
+        </a>
+        
+
+        
+    </div>
+    </div>
+    <div id="abstract_2024ApJ...976..121G" class="abstract-content">
+        <p>Gravitational wave observations of binary black holes have revealed unexpected structure in the black hole mass distribution. Previous studies of the mass distribution employ physically-motivated phenomenological models and infer the parameters that directly control the features of the mass distribution that are allowed in their model, associating the constraints on those parameters with their physical motivations. In this work, we take an alternative approach in which we introduce a model parameterizing the underlying stellar and core-collapse physics and obtaining the remnant black hole distribution as a derived byproduct. In doing so, we directly constrain the stellar physics necessary to explain the astrophysical distribution of black hole properties under a given model. We apply this approach to modeling the mapping between stellar core mass and remnant black hole mass, including the effects of mass loss due to the pulsational pair instability supernova (PPISN) process, which has been proposed as an explanation for the observed excess of black holes at ∼35M⊙. Placing constraints on the nuclear reaction rates necessary to explain the PPISN parameters, we conclude that the peak observed at ∼35M⊙ is highly unlikely to be a signature from the PPISN process. This procedure can be applied to modeling any physical process that underlies the astrophysical mass distribution. Allowing the parameters of the core-remnant mass relationship to evolve with redshift permits correlated and physically reasonable changes in the location, shape, and amplitude of features in the mass function. We find that the current data are consistent with no redshift evolution in the core-remnant mass relationship, but ultimately place only weak constraints on the change of these parameters.</p>
+    </div>
+</div>
+
+<!-- ... other HTML content ... -->
+
+</body>
+
+</li>
+<li><head>
+    <style>
+        :root {
+            --image-width: 150px;
+        }
+        .button3,
+        .button2,
+        .button1,
+        .button0,
+        .button4 {
+            border-color: #3c39eb;
+            background-color: #ddd;
+            border: none;
+            color: #ffffff;
+            padding: 14px 14px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            height: 45px;
+            vertical-align: top;
+        }
+        .button3 {
+            background-color: #e79e44;
+            border-color: #e79e44;
+        }
+
+        .button2 {
+            background-color: #3c39eb;
+            border-color: #3c39eb;
+        }
+
+        .button1 {
+            border-color: #d34114;
+            background-color: #d34114;
+        }
+
+        .button0 {
+            border-color: #33cc38;
+            background-color: #33cc38;
+        }
+
+        .entry-container {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            transition: transform 0.3s ease-in-out;
+            margin-top: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        .entry-container:hover {
+            transform: scale(1.02);
+        }
+
+        .image-container {
+            margin-bottom: 1px;
+            margin-right: 20px;
+        }
+
+        .title-info {
+            flex: 1;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            color: rgb(131, 46, 195);
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.3;
+            margin-top: 1px;
+        }
+
+        .authors {
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 1.3;
+        }
+
+        .authors .me {
+            font-weight: bold;
+        }
+
+        .journal {
+            color: #2a4f58;
+            font-style: italic;
+            font-weight: bold;
+            line-height: 1.1;
+            font-size: 15px;
         }
 
         .authors .me {
@@ -204,7 +754,7 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 
     <div class="title-info">
         <div class="title">Projections of the uncertainty on the compact binary population background using popstock</div>
-        <div class="journal">\aap, 2024</div>
+        <div class="journal">Astronomy&amp;Astrophysics, 2024</div>
         <div class="authors">
             
             <span class="authors">
@@ -344,371 +894,11 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
         }
 
         .journal {
-            color: rgb(0, 0, 0);
+            color: #2a4f58;
             font-style: italic;
+            font-weight: bold;
             line-height: 1.1;
-            font-size: 14px;
-        }
-
-        .authors .me {
-            font-weight: bold;
-        }
-
-        .button-container {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            margin-top: 10px;
-        }
-
-        .abstract-content {
-            display: none;
-            font-size: medium;
-            background-color: rgb(233, 233, 245);
-            border-radius: 15px;
-            padding: 10px;
-            line-height: 1.2;
-        }
-        ol.bibliography {  list-style-type: none; }
-    </style>
-</head>
-<body>
-
-<div class="entry-container">
-    <div class="image-container">
-        
-        <img src="/assets/images/ppisn.png" alt="" style="width: var(--image-width); height: auto;" />
-        
-    </div>
-
-    <div class="title-info">
-        <div class="title">Physical Models for the Astrophysical Population of Black Holes: Application to the Bump in the Mass Distribution of Gravitational-wave Sources</div>
-        <div class="journal">\apj, 2024</div>
-        <div class="authors">
-            
-            <span class="authors me">
-                Jacob Golomb</span>,
-            
-            <span class="authors">
-                Maximiliano Isi</span>,
-            
-            <span class="authors">
-                Will M. Farr</span>
-            
-        </div>
-
-
-    <div class="button-container">
-        
-        <button type="button" onclick="toggleCollapsible('abstract_2024ApJ...976..121G')" class="button2">Abstract</button>
-        
-
-        
-        <a href="http://doi.org/10.3847/1538-4357/ad8572" style="text-decoration: none">
-            <button class="button0">Publisher</button>
-        </a>
-        
-        
-        <a href="https://arxiv.org/abs/2312.03973" style="text-decoration: none">
-            <button class="button1">arXiv</button>
-        </a>
-        
-
-        
-    </div>
-    </div>
-    <div id="abstract_2024ApJ...976..121G" class="abstract-content">
-        <p>Gravitational wave observations of binary black holes have revealed unexpected structure in the black hole mass distribution. Previous studies of the mass distribution employ physically-motivated phenomenological models and infer the parameters that directly control the features of the mass distribution that are allowed in their model, associating the constraints on those parameters with their physical motivations. In this work, we take an alternative approach in which we introduce a model parameterizing the underlying stellar and core-collapse physics and obtaining the remnant black hole distribution as a derived byproduct. In doing so, we directly constrain the stellar physics necessary to explain the astrophysical distribution of black hole properties under a given model. We apply this approach to modeling the mapping between stellar core mass and remnant black hole mass, including the effects of mass loss due to the pulsational pair instability supernova (PPISN) process, which has been proposed as an explanation for the observed excess of black holes at ∼35M⊙. Placing constraints on the nuclear reaction rates necessary to explain the PPISN parameters, we conclude that the peak observed at ∼35M⊙ is highly unlikely to be a signature from the PPISN process. This procedure can be applied to modeling any physical process that underlies the astrophysical mass distribution. Allowing the parameters of the core-remnant mass relationship to evolve with redshift permits correlated and physically reasonable changes in the location, shape, and amplitude of features in the mass function. We find that the current data are consistent with no redshift evolution in the core-remnant mass relationship, but ultimately place only weak constraints on the change of these parameters.</p>
-    </div>
-</div>
-
-<!-- ... other HTML content ... -->
-
-</body>
-
-</li>
-<li><head>
-    <style>
-        :root {
-            --image-width: 150px;
-        }
-        .button3,
-        .button2,
-        .button1,
-        .button0,
-        .button4 {
-            border-color: #3c39eb;
-            background-color: #ddd;
-            border: none;
-            color: #ffffff;
-            padding: 14px 14px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 14px;
-            font-weight: bold;
-            margin: 2px;
-            cursor: pointer;
-            border-radius: 5px;
-            height: 45px;
-            vertical-align: top;
-        }
-        .button3 {
-            background-color: #e79e44;
-            border-color: #e79e44;
-        }
-
-        .button2 {
-            background-color: #3c39eb;
-            border-color: #3c39eb;
-        }
-
-        .button1 {
-            border-color: #d34114;
-            background-color: #d34114;
-        }
-
-        .button0 {
-            border-color: #33cc38;
-            background-color: #33cc38;
-        }
-
-        .entry-container {
-            width: 100%;
-            border: 1px solid #ddd;
-            border-radius: 15px;
-            background-color: #fff;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            margin: 10px;
-            padding: 20px;
-            transition: transform 0.3s ease-in-out;
-            margin-top: 0px;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: flex-start;
-        }
-
-        .entry-container:hover {
-            transform: scale(1.02);
-        }
-
-        .image-container {
-            margin-bottom: 1px;
-            margin-right: 20px;
-        }
-
-        .title-info {
-            flex: 1;
-            margin-bottom: 10px;
-        }
-
-        .title {
-            color: rgb(131, 46, 195);
-            font-size: 16px;
-            font-weight: bold;
-            line-height: 1.3;
-            margin-top: 1px;
-        }
-
-        .authors {
-            color: rgb(0, 0, 0);
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 1.3;
-        }
-
-        .authors .me {
-            font-weight: bold;
-        }
-
-        .journal {
-            color: rgb(0, 0, 0);
-            font-style: italic;
-            line-height: 1.1;
-            font-size: 14px;
-        }
-
-        .authors .me {
-            font-weight: bold;
-        }
-
-        .button-container {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            margin-top: 10px;
-        }
-
-        .abstract-content {
-            display: none;
-            font-size: medium;
-            background-color: rgb(233, 233, 245);
-            border-radius: 15px;
-            padding: 10px;
-            line-height: 1.2;
-        }
-        ol.bibliography {  list-style-type: none; }
-    </style>
-</head>
-<body>
-
-<div class="entry-container">
-    <div class="image-container">
-        
-        <img src="/assets/images/mtovmpop.png" alt="" style="width: var(--image-width); height: auto;" />
-        
-    </div>
-
-    <div class="title-info">
-        <div class="title">The interplay of astrophysics and nuclear physics in determining the properties of neutron stars</div>
-        <div class="journal">arXiv e-prints, 2024</div>
-        <div class="authors">
-            
-            <span class="authors me">
-                Jacob Golomb</span>,
-            
-            <span class="authors">
-                Isaac Legred</span>,
-            
-            <span class="authors">
-                Katerina Chatziioannou</span>,
-            
-            <span class="authors">
-                Philippe Landry</span>
-            
-        </div>
-
-
-    <div class="button-container">
-        
-        <button type="button" onclick="toggleCollapsible('abstract_2024arXiv241014597G')" class="button2">Abstract</button>
-        
-
-        
-        <a href="http://doi.org/10.48550/arXiv.2410.14597" style="text-decoration: none">
-            <button class="button0">Publisher</button>
-        </a>
-        
-        
-        <a href="https://arxiv.org/abs/2410.14597" style="text-decoration: none">
-            <button class="button1">arXiv</button>
-        </a>
-        
-
-        
-    </div>
-    </div>
-    <div id="abstract_2024arXiv241014597G" class="abstract-content">
-        <p>Neutron star properties depend on both nuclear physics and astrophysical processes, and thus observations of neutron stars offer constraints on both large-scale astrophysics and the behavior of cold, dense matter. In this study, we use astronomical data to jointly infer the universal equation of state of dense matter along with two distinct astrophysical populations: Galactic neutron stars observed electromagnetically and merging neutron stars in binaries observed with gravitational waves. We place constraints on neutron star properties and quantify the extent to which they are attributable to macrophysics or microphysics. We confirm previous results indicating that the Galactic and merging neutron stars have distinct mass distributions. The inferred maximum mass of both Galactic neutron stars, Mpop,EM=2.05+0.11−0.06M⊙ (median and 90% symmetric credible interval), and merging neutron star binaries, Mpop,GW=1.85+0.39−0.16M⊙, are consistent with the maximum mass of nonrotating neutron stars set by nuclear physics, MTOV=2.28+0.41−0.21M⊙. The radius of a 1.4M⊙ neutron star is 12.2+0.8−0.9km, consistent with, though ∼20% tighter than, previous results using an identical equation of state model. Even though observed Galactic and merging neutron stars originate from populations with distinct properties, there is currently no evidence that astrophysical processes cannot produce neutron stars up to the maximum value imposed by nuclear physics.</p>
-    </div>
-</div>
-
-<!-- ... other HTML content ... -->
-
-</body>
-
-</li>
-<li><head>
-    <style>
-        :root {
-            --image-width: 150px;
-        }
-        .button3,
-        .button2,
-        .button1,
-        .button0,
-        .button4 {
-            border-color: #3c39eb;
-            background-color: #ddd;
-            border: none;
-            color: #ffffff;
-            padding: 14px 14px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 14px;
-            font-weight: bold;
-            margin: 2px;
-            cursor: pointer;
-            border-radius: 5px;
-            height: 45px;
-            vertical-align: top;
-        }
-        .button3 {
-            background-color: #e79e44;
-            border-color: #e79e44;
-        }
-
-        .button2 {
-            background-color: #3c39eb;
-            border-color: #3c39eb;
-        }
-
-        .button1 {
-            border-color: #d34114;
-            background-color: #d34114;
-        }
-
-        .button0 {
-            border-color: #33cc38;
-            background-color: #33cc38;
-        }
-
-        .entry-container {
-            width: 100%;
-            border: 1px solid #ddd;
-            border-radius: 15px;
-            background-color: #fff;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            margin: 10px;
-            padding: 20px;
-            transition: transform 0.3s ease-in-out;
-            margin-top: 0px;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: flex-start;
-        }
-
-        .entry-container:hover {
-            transform: scale(1.02);
-        }
-
-        .image-container {
-            margin-bottom: 1px;
-            margin-right: 20px;
-        }
-
-        .title-info {
-            flex: 1;
-            margin-bottom: 10px;
-        }
-
-        .title {
-            color: rgb(131, 46, 195);
-            font-size: 16px;
-            font-weight: bold;
-            line-height: 1.3;
-            margin-top: 1px;
-        }
-
-        .authors {
-            color: rgb(0, 0, 0);
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 1.3;
-        }
-
-        .authors .me {
-            font-weight: bold;
-        }
-
-        .journal {
-            color: rgb(0, 0, 0);
-            font-style: italic;
-            line-height: 1.1;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .authors .me {
@@ -745,7 +935,7 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 
     <div class="title-info">
         <div class="title">GWPopulation: Hardware agnostic population inference for compact binaries and beyond</div>
-        <div class="journal">arXiv e-prints, 2024</div>
+        <div class="journal">JOSS, Submitted, 2024</div>
         <div class="authors">
             
             <span class="authors">
@@ -894,10 +1084,11 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
         }
 
         .journal {
-            color: rgb(0, 0, 0);
+            color: #2a4f58;
             font-style: italic;
+            font-weight: bold;
             line-height: 1.1;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .authors .me {
@@ -1079,10 +1270,11 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
         }
 
         .journal {
-            color: rgb(0, 0, 0);
+            color: #2a4f58;
             font-style: italic;
+            font-weight: bold;
             line-height: 1.1;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .authors .me {
@@ -1252,10 +1444,11 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
         }
 
         .journal {
-            color: rgb(0, 0, 0);
+            color: #2a4f58;
             font-style: italic;
+            font-weight: bold;
             line-height: 1.1;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .authors .me {
@@ -1428,10 +1621,11 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
         }
 
         .journal {
-            color: rgb(0, 0, 0);
+            color: #2a4f58;
             font-style: italic;
+            font-weight: bold;
             line-height: 1.1;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .authors .me {
@@ -1607,10 +1801,11 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
         }
 
         .journal {
-            color: rgb(0, 0, 0);
+            color: #2a4f58;
             font-style: italic;
+            font-weight: bold;
             line-height: 1.1;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .authors .me {
@@ -1783,10 +1978,11 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
         }
 
         .journal {
-            color: rgb(0, 0, 0);
+            color: #2a4f58;
             font-style: italic;
+            font-weight: bold;
             line-height: 1.1;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .authors .me {
@@ -1971,10 +2167,11 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
         }
 
         .journal {
-            color: rgb(0, 0, 0);
+            color: #2a4f58;
             font-style: italic;
+            font-weight: bold;
             line-height: 1.1;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .authors .me {
@@ -2162,10 +2359,11 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
         }
 
         .journal {
-            color: rgb(0, 0, 0);
+            color: #2a4f58;
             font-style: italic;
+            font-weight: bold;
             line-height: 1.1;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .authors .me {
@@ -2338,10 +2536,11 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
         }
 
         .journal {
-            color: rgb(0, 0, 0);
+            color: #2a4f58;
             font-style: italic;
+            font-weight: bold;
             line-height: 1.1;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .authors .me {
@@ -2532,10 +2731,11 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
         }
 
         .journal {
-            color: rgb(0, 0, 0);
+            color: #2a4f58;
             font-style: italic;
+            font-weight: bold;
             line-height: 1.1;
-            font-size: 14px;
+            font-size: 15px;
         }
 
         .authors .me {
