@@ -32,5 +32,5 @@ order: 1
 <div>
   <img src="assets/images/profile.jpeg" alt="Profile" class=profile>
   <div style="font-size: 50px; font-family: Verdana; line-height: 1.5;">Jacob Golomb</div>
-  <h4> PhD Student in Physics at the <a href="https://www.caltech.edu">California Institute of Technology</a></h4>
+  <h4> PhD Student in PPhysics at the <a href="https://www.caltech.edu">California Institute of Technology</a></h4>
 </div>
