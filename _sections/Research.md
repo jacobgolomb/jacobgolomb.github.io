@@ -44,7 +44,7 @@ order: 3
   <div style="float: left; width: 60%;">
     <p style="text-align: left;">I'm interested in using gravitational wave observations to:</p>
     <ul style="text-align: left;">
-      <li>Estimate the source properties of detected signals using Bayesian Inference</li>
+      <li>Estimate the source properties of detected signals using Bayesian Inferencce</li>
       <li>Learn about stellar evolution and compact binary formation channels</li>
       <li>Infer cosmological parameters (i.e. Hubble expansion rate, matter/dark-energy densities, etc)</li>
       <li>Constrain possible models for the behavior of dense nuclear matter</li>
