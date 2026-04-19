@@ -21,7 +21,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6A%67%6F%6C%6F%6D%62@%63%61%6C%74%65%63%68.%65%64%75", "_blank");
+          window.open("mailto:%6A%67%6F%6C%6F%6D%62@%61%6C%75%6D%6E%69.%63%61%6C%74%65%63%68.%65%64%75", "_blank");
         },
       },{
       id: 'light-theme',
